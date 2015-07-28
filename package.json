@@ -1,0 +1,22 @@
+{
+  "name": "routezero",
+  "version": "0.0.1",
+  "description": "Simple web server that routes requests through ZeroMQ using PUSH PULL and PUB SUB",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lancecarlson/routezero.git"
+  },
+  "author": "Lancelot Carlson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lancecarlson/routezero/issues"
+  },
+  "homepage": "https://github.com/lancecarlson/routezero",
+  "dependencies": {
+    "express": "^4.13.1",
+    "morgan": "^1.6.1",
+    "node-uuid": "^1.4.3",
+    "zmq": "^2.12.0"
+  }
+}
